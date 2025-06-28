@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/dialog_et_centre_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom du centre"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/dialog_et_centre_adresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresse"
+        android:inputType="text"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/dialog_et_centre_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/dialog_et_centre_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/dialog_et_centre_circonscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Circonscription (ID ou nom)"
+        android:inputType="text"
+        android:layout_marginTop="12dp"/>
+</LinearLayout> 

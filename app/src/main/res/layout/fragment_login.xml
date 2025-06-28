@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Drapeau -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_flag"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"/>
+
+        <!-- Titre -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ElectoManage"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textColor="#000"/>
+
+        <!-- Sous-titre -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connectez-vous à votre compte"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#666"/>
+
+        <!-- Nom utilisateur -->
+        <EditText
+            android:id="@+id/et_login_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:layout_marginTop="24dp"/>
+
+        <!-- Mot de passe -->
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Mot de passe"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Statut (RadioGroup) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Statue :"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"
+            android:textColor="#000"/>
+
+        <RadioGroup
+            android:id="@+id/rg_roles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp">
+
+            <RadioButton
+                android:id="@+id/radio_admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Administrateur"/>
+
+            <RadioButton
+                android:id="@+id/radio_operateur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="opérateur"/>
+
+            <RadioButton
+                android:id="@+id/radio_superviseur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="superviseur"/>
+
+            <RadioButton
+                android:id="@+id/radio_electeur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="électeur"/>
+        </RadioGroup>
+
+        <!-- Bouton Se connecter -->
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Se connecter"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#7A98A9"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <!-- Mot de passe oublié -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mot de passe oublié"
+            android:textColor="#7A98A9"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="end"/>
+
+        <!-- Aller à l'inscription -->
+        <TextView
+            android:id="@+id/tv_go_to_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pas de compte? Inscrivez-vous"
+            android:textColor="#7A98A9"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ProgressBar
+            android:id="@+id/progress_login_loading"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"/>
+    </LinearLayout>
+</ScrollView>

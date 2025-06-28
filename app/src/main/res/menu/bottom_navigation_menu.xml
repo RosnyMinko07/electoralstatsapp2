@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Accueil"
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/nav_mail"
+        android:title="Messages"
+        android:icon="@drawable/ic_mail" />
+    <item
+        android:id="@+id/nav_calendar"
+        android:title="Calendrier"
+        android:icon="@drawable/ic_calendar" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:title="Notifications"
+        android:icon="@drawable/ic_bell" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Paramètres"
+        android:icon="@drawable/ic_settings" />
+</menu> 

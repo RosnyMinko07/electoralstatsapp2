@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#C7DFEC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/btn_notifications"
+            android:src="@drawable/bouton_notifications"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="Notifications" />
+    </RelativeLayout>
+
+    <!-- Content (buttons) -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <!-- Résultat des votes -->
+            <Button
+                android:id="@+id/btn_resultat"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Résultat des votes"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Gestion des utilisateurs -->
+            <Button
+                android:id="@+id/btn_gestion"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Gestion des utilisateurs"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Gestion des utilisateurs (admin) -->
+            <Button
+                android:id="@+id/btn_gestion_utilisateurs_admin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Gestion des comptes (admin)"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Gestion des candidats -->
+            <Button
+                android:id="@+id/btn_gestion_candidats"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Gestion des Candidats"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Gestion des élections -->
+            <Button
+                android:id="@+id/btn_gestion_elections"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Gestion des élections"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Gestion des bureaux de vote -->
+            <Button
+                android:id="@+id/btn_gestion_bureaux"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Gestion des bureaux de vote"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Gestion des centres de vote -->
+            <Button
+                android:id="@+id/btn_gestion_centres"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Gestion des centres de vote"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Gestion des circonscriptions -->
+            <Button
+                android:id="@+id/btn_gestion_circonscriptions"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Gestion des circonscriptions"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Saisie des résultats -->
+            <Button
+                android:id="@+id/btn_saisie_resultats"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#5A7898"
+                android:text="Saisie des Résultats"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Comparaison des résultats -->
+            <Button
+                android:id="@+id/btn_comparaison"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Comparaison des résultats"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Statistiques électorales -->
+            <Button
+                android:id="@+id/btn_stats"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Statistiques électorales"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Présentation des résultats -->
+            <Button
+                android:id="@+id/btn_presentation_resultats"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#7A97B8"
+                android:text="Présentation des résultats"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Déconnexion -->
+            <LinearLayout
+                android:id="@+id/btn_logout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#ED2537"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/signe"
+                    app:tint="#FFF" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Déconnexion"
+                    android:textColor="#FFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progress_loading"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"/>
+</LinearLayout>

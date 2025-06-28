@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">electoralstatsapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type_election">Type élection</string>
+    <string name="circonscription">Circonscription</string>
+    <string name="commune">Commune</string>
+</resources>

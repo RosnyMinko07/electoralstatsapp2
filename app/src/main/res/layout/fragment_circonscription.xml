@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/circonscription_container"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="#D2E6F3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        tools:context=".fragments.Fragment_circonscription">
+
+        <TextView
+            android:text="Province de l’Ogooué-Maritime (13 sièges)"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:text="Province du Woleu-Ntem (17 sièges)"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:text="Département du Woleu (Oyem) : 5 sièges"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:text="Province de l’Ogooué-Lolo (6 sièges)"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:text="Département de Lolo-Bouénguidi : 3 sièges"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:text="Département de Mulundu : 4 sièges"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:text="Province de la Nyanga (5 sièges)"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:text="Département de la Nyanga : 5 sièges"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:text="Province de l’Estuaire (7 sièges)"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>

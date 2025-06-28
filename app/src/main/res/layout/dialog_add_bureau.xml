@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/dialog_et_bureau_numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numéro du bureau"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/dialog_et_bureau_nb_inscrits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre d'inscrits"
+        android:inputType="number"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/dialog_et_bureau_nb_votants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de votants"
+        android:inputType="number"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/dialog_et_bureau_centre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Centre de vote (ID ou nom)"
+        android:inputType="text"
+        android:layout_marginTop="12dp"/>
+</LinearLayout> 

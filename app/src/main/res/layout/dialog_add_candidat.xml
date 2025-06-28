@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un nouveau candidat"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/dialog_et_candidat_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prénom"
+        android:inputType="textPersonName|textCapWords"/>
+
+    <EditText
+        android:id="@+id/dialog_et_candidat_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Nom"
+        android:inputType="textPersonName|textCapWords"/>
+
+    <EditText
+        android:id="@+id/dialog_et_candidat_parti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Parti politique"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/dialog_et_candidat_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Biographie (optionnel)"
+        android:inputType="textMultiLine|textCapSentences"
+        android:minLines="2"/>
+
+    <ImageView
+        android:id="@+id/dialog_iv_candidat_photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profilhomme"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/circle_bg"
+        android:contentDescription="Photo du candidat" />
+
+</LinearLayout> 

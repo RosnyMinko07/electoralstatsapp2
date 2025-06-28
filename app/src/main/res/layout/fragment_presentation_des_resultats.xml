@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        tools:context=".fragments.Fragment_presentation_des_resultats">
+
+        <!-- Header -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+            <View android:layout_weight="1" android:layout_width="0dp" android:layout_height="1dp"/>
+        </LinearLayout>
+
+        <TextView android:text="Présentation des candidats" android:textStyle="bold"
+            android:textSize="22sp" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+
+        <TextView android:text="Information générale" android:textStyle="bold"
+            android:textSize="18sp" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+
+        <!-- Bloc principal qui prend tout l'espace restant -->
+        <LinearLayout
+            android:id="@+id/candidats_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <!-- Les lignes horizontales de candidats seront ajoutées dynamiquement ici -->
+        </LinearLayout>
+    </LinearLayout>
